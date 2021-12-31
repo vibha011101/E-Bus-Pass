@@ -1,0 +1,55 @@
+body{
+    /* background-color: rgb(226 225 225 / 30%); */
+    background-color: #e2e1e1;
+  }
+.navbar {
+    height: 75px;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+.nav-item a{ 
+      font-size: 20px;
+       /* padding-left: 50px;  */
+       word-spacing: 35px; 
+      font-weight: bold;
+       font-size: 20px;
+      font-family: 'Train One', cursive;
+  }
+    .ebuspass
+  {
+    padding-right: 520px; 
+    color: white;
+    /* /* padding-top: 10px;  */
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Train One', cursive;
+  } 
+  .nav-item a:hover{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 10px;
+  }
+  .card
+  {
+    height: 410px;
+    width: 463px;
+    margin-top: 80px;
+    right: 15px;
+    background-color: white;
+    opacity: 0.7;
+    border: 2px solid black;
+    font-family: 'Merriweather', serif;
+    box-shadow: 5px 10px 18px #888888;
+  }
+  .form-label
+  {
+    font-size: 22px;
+    padding-right: 280px;
+  }
+  .form-control-lg
+  {
+    border-radius: 10px;
+    border-color: black ;
+  }
+  
+  

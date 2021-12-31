@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--<link rel="stylesheet" href="/static/css/signup.css">-->
+    <link rel="stylesheet" href="/static/css/signup.css">
+    <title>E-Bus Pass</title>
+  <link rel="icon"
+    href=https://image.shutterstock.com/image-vector/school-bus-vector-illustration-isolated-260nw-567637837.jpg
+    type="image/x-icon" style="width: 25px">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#"> -->
+      <img src="/static/images/busicon.jpg" alt="Logo" style="width:70px;" class="rounded-pill">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item ebuspass">E-BUS PASS</li>
+        <li class="nav-item ">
+          <a class="nav-link home" href="home">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link AboutUs" href="aboutus">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link Contact" href="contact">Contact</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link Admin" href= "admin">Admin</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="whole">
+        <div class="page">
+          <form action="signup" enctype="multipart/form-data" method="post">
+            { % crsf_token % }
+            <div class="container py-3 mx-0 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                  <div class="card text-black" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+  
+                      <h1 class="fw-bold mb-4 text-uppercase text-black">Student Registration</h1>
+                      <!-- <p class="text-white-50 mb-4">Please enter your username and password!</p> -->
+  
+                      <div class="form-outline form-black mb-4">
+                        <!--<label class="form-label">Username:</label>-->
+                        <input type="text" name='usn' class="form-control form-control-md" placeholder="USN"/>
+                      </div>
+
+                      <div class="form-outline form-black mb-4">
+                        <!--<label class="form-label">Username:</label>-->
+                        <input type="text" name='name' class="form-control form-control-md" placeholder="Name"/>
+                      </div>
+
+                      <div class="form-outline form-black mb-4">
+                        <!--<label class="form-label">Username:</label>-->
+                        <input type="text" name='address' class="form-control form-control-md" placeholder="Address"/>
+                      </div>
+
+                      <div class="form-outline form-black mb-4">
+                        <!--<label class="form-label">Username:</label>-->
+                        <input type="email" name='email' class="form-control form-control-md" placeholder="Email"/>
+                      </div>
+
+                      <div class="form-outline form-black mb-4">
+                        <!--<label class="form-label">Username:</label>-->
+                        <input type="text" name='branch' class="form-control form-control-md" placeholder="Branch"/>
+                      </div>
+
+                      <div class="form-outline form-black mb-4">
+                        <!--<label class="form-label">Username:</label>-->
+                        <input type="text" name='sem' class="form-control form-control-md" placeholder="Semester"/>
+                      </div>
+  
+                      <div class="form-outline form-black mb-4">
+                        <!--<label class="form-label" for="typePasswordX">Password:</label>-->
+                        <input type="password" name='password'id="typePasswordX" class="form-control form-control-md" placeholder="Password"/>
+                      </div>
+
+                      <!-- <div class="form-outline form-black mb-4"> -->
+                        <!--<label class="form-label" for="typePasswordX">Password:</label>-->
+                        <!-- <input type="password" name='password2' id="typePasswordX" class="form-control form-control-md" placeholder="Re-enter Password"/> -->
+                      <!-- </div> -->
+
+                      <div class="form-outline form-black mb-4">
+                        <label class="form-label">Upload your photo:</label>
+                        <input type="file" name='image' class="form-control form-control-md" placeholder="UploAd your photo"/>
+                      </div>
+                      <!--<p class="small mb-4 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>-->
+  
+                      <button class="btn btn-outline-dark btn-lg px-5 fw-bold" type="submit">SIGN UP</button>
+  
+                    </div>
+  
+                    <!-- <div> -->
+                    <!-- <p class="mb-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a></p> -->
+                    <!-- </div> -->
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          </form>
+        </div>
+      </div>
+    
+    
+</body>
+</html>

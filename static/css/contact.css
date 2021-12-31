@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: rgb(226 225 225 / 45%);
+  }
+.navbar {
+    height: 75px;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+.nav-item a{ 
+      font-size: 20px;
+       /* padding-left: 50px;  */
+       word-spacing: 35px; 
+      font-weight: bold;
+       font-size: 20px;
+      font-family: 'Train One', cursive;
+  }
+    .ebuspass
+  {
+    padding-right: 520px; 
+    color: white;
+    /* /* padding-top: 10px;  */
+    font-weight: bolder;
+      font-size: 30px;
+    font-family: 'Train One', cursive;
+  } 
+  .nav-item a:hover{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 10px;
+  }
+
+  #page{
+      margin-top: 100px;
+  }
+  h1 {
+    text-align: center;
+    border-bottom: 4px dashed rgba(226, 226, 42, 0.911);
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+  }
+  
+  #container {
+    margin: auto 20px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+  }
+  
+  .heading11 {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+  
+  .row1 {
+    line-height: 30px;
+    font-size: 17px;
+  }
+  
+  .row2 {
+    font-weight: bold;
+  }
+  
+  #map {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
+  }
+  
+  #map iframe {
+    height: 85%;
+    width: 90%;
+    position: absolute;
+    margin: 50px 50px;
+  }
+  
+  #box3 {
+    background-image: url("banner2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 325px; */
+    opacity: 0.85;
+  }
+  
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    /* height: 315px; */
+    margin-top: 90px;
+    background-color: black;
+    opacity: 0.7;
+  }
+  
+  .part3 {
+    font-size: 20px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 30px;
+    margin-top: 18px;
+    font-weight: bold;
+  }
+  
+  .column {
+    text-decoration: underline;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 0);
+  }
+  
+  .apps {
+    width: 25px;
+    height: 22px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  
+  .row111 {
+    line-height: 40px;
+  }
+  
+  .row111:hover {
+    /* color: rgb(114, 108, 108); */
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  .row333:hover {
+    /* color: rgb(114, 108, 108); */
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  .apps:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  

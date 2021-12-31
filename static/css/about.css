@@ -1,0 +1,164 @@
+body{
+    /* background-size: cover; */
+      /* -moz-background-size: cover; */
+    background-size: cover;
+    /* -o-background-size: cover; */
+    background: url('/static/images/nmamit.jpg') no-repeat center center fixed;
+    /* background-color: rgba(128, 128, 128, 0.171); */
+}
+.navbar {
+    height: 75px;
+  }
+.page{
+  background-color: rgb(24 23 23 / 40%);
+  height: 100vh;
+  /* opacity: 0.7; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+   .nav-item a{ 
+      font-size: 20px;
+       /* padding-left: 50px;  */
+       word-spacing: 35px; 
+      font-weight: bold;
+       font-size: 20px;
+      font-family: 'Train One', cursive;
+  }
+.table
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  /* top: 250px; */
+
+  width: 80%;
+  /* opacity: 0.7; */
+  /* background: rgba(0,0,0,0.7); */
+  border: 2px solid white;
+  font-family: 'Merriweather', serif;
+  box-shadow: 5px 10px 18px #888888;
+  /* background-color: black; */
+  font-weight: bold;
+  color: black;
+}
+
+.container{
+  position: relative;
+  top: 60px;
+  background-color: gold;
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+  height: 40px;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.p {
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  top: 150px;
+}
+
+/* .iframe {
+  position: relative;
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+} */
+
+/* #box3 {
+  background-image: url("banner2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 325px;
+  opacity: 0.85;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  height: 315px;
+  margin-top: 90px;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.part3 {
+  font-size: 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
+  margin-top: 18px;
+  font-weight: bold;
+}
+
+.column {
+  text-decoration: underline;
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 0);
+}
+
+.apps {
+  width: 25px;
+  height: 22px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.row111 {
+  line-height: 40px;
+}
+
+.row111:hover {
+  color: rgb(114, 108, 108);
+  color: yellow;
+  cursor: pointer;
+}
+
+.row333:hover {
+  color: rgb(114, 108, 108);
+  color: yellow;
+  cursor: pointer;
+}
+
+.apps:hover {
+  opacity: 0.5;
+  cursor: pointer;
+} */
+
+.ebuspass
+  {
+    padding-right: 905px; 
+    color: white;
+    /* /* padding-top: 10px;  */
+    font-weight: bolder;
+      font-size: 30px;
+    font-family: 'Train One', cursive;
+  } 
+
+.accordion{
+  position: relative;
+  top:90px;
+}
+
+.accordion-button{
+  background-color: rgba(211, 211, 211, 0.24);
+  border: 1.5px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#para{
+  margin-top: 20px;
+  background-color: #580b0b;
+  padding: 20px 50px;
+  border-radius: 15px;
+  border:1px solid white;
+  color: whitesmoke;
+  line-height: 2;
+}
